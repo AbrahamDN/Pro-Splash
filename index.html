@@ -13,22 +13,43 @@
     <div class="portfolio">
         <header>
             <nav>
-                <a href="">
-                    <h3 class="logo">Pro Splash</h3>
+                <a class="logo" href="">
+                    <h3>Pro Splash</h3>
                 </a>
-                <img src="./img/hamburger.svg" alt="Burger menu" />
+                <svg class="menu" width="43" height="23" viewBox="0 0 43 23" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <line y1="1.5" x2="43" y2="1.5" stroke="white" stroke-width="3" />
+                    <line y1="11.5" x2="28" y2="11.5" stroke="white" stroke-width="3" />
+                    <line y1="21.5" x2="16" y2="21.5" stroke="white" stroke-width="3" />
+                </svg>
+                <div class="nav-open">
+                    <div class="contacts">
+                        <h3>Contact</h3>
+                        <p>0161-9883-32882</p>
+                    </div>
+                    <div class="social">
+                        <h3>Social</h3>
+                        <div class="social-links">
+                            <img src="./img/Facebook.svg" alt="Facebook">
+                            <img src="./img/Twitter.svg" alt="Twitter">
+                            <img src="./img/Instagram.svg" alt="Instagram">
+                        </div>
+                    </div>
+                </div>
             </nav>
         </header>
         <main>
             <section class="page photographer">
                 <div class="details">
-                    <h1>Elena Morel</h1>
+                    <h1>Jessica Ana</h1>
                     <h2>Photographer</h2>
                     <p>02/08/2018</p>
                 </div>
                 <div class="hero">
-                    <img class="model-left" src="./img/model-left.jpg" alt="model" />
-                    <img class="model-right" src="./img/model-right.jpg" alt="model" />
+                    <a href="photo.html">
+                        <img class="model-left" src="./img/model-left.jpg" alt="model" />
+                        <img class="model-right" src="./img/model-right.jpg" alt="model" />
+                    </a>
                 </div>
             </section>
             <section class="page chef">
@@ -38,8 +59,10 @@
                     <p>01/03/2015</p>
                 </div>
                 <div class="hero">
-                    <img src="./img/chef-left.jpg" alt="model" />
-                    <img src="./img/chef-right.jpg" alt="model" />
+                    <a href="chef.html">
+                        <img class="model-left" src="./img/chef-left.jpg" alt="model" />
+                        <img class="model-right" src="./img/chef-right.jpg" alt="model" />
+                    </a>
                 </div>
             </section>
             <section class="page hairstyle">
@@ -49,8 +72,10 @@
                     <p>10/03/2014</p>
                 </div>
                 <div class="hero">
-                    <img src="./img/hair-left.jpg" alt="model" />
-                    <img src="./img/hair-right.jpg" alt="model" />
+                    <a href="hair.html">
+                        <img class="model-left" src="./img/hair-left.jpg" alt="model" />
+                        <img class="model-right" src="./img/hair-right.jpg" alt="model" />
+                    </a>
                 </div>
             </section>
             <div class="pages">
@@ -78,6 +103,14 @@
             </div>
         </main>
     </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+        integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+        integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk=" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
 </body>
 
 </html>
